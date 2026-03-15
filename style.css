@@ -305,7 +305,7 @@ body.dark .menuToggle{
 
 /* ===================== PAGE ===================== */
 .page{
-  min-height: calc(100vh - var(--topbar-h));
+  min-height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -313,7 +313,7 @@ body.dark .menuToggle{
 .containerPad{
   width: 100%;
   flex: 1;
-  padding: 46px 56px 90px;
+  padding: 46px 56px 40px;
 }
 
 /* ===================== COMMON UI ===================== */
