@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Katherine Sanchez</title>
+  <meta name="description" content="Learn more about Katherine Sanchez, an aspiring front-end web developer.">
+  <link rel="canonical" href="about.html">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body>
+  <a class="skipLink" href="#main">Skip to main content</a>
+
+  <header class="topbar">
+    <a href="index.html" class="mobileBrand">Katherine Sanchez</a>
+
+    <nav class="nav" aria-label="Primary navigation" id="siteNav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link nav__link--active" href="about.html">About</a>
+      <a class="nav__link" href="projects.html">Projects</a>
+      <a class="nav__link" href="resume.html">Resume</a>
+      <a class="nav__link" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="topbarActions">
+      <button class="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode" aria-pressed="false" id="themeToggleBtn" type="button">
+        <i class="fa-solid fa-sun" aria-hidden="true"></i>
+      </button>
+
+      <button class="menuToggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="containerPad aboutWrap2">
+      <div class="aboutLeft2">
+        <h1 class="serifTitle aboutBigTitle">ABOUT ME</h1>
+
+        <div class="aboutPhotoCard">
+          <img src="images/profile.jpeg" alt="Profile Picture" class="aboutPhoto">
+        </div>
+      </div>
+
+      <div class="aboutRight2">
+        <p class="aboutParagraph">
+          I am an aspiring Web Developer with a strong focus on front-end development. Currently pursuing a Bachelor of Science in Information Technology at Holy Angel University with a specialization in Website Development, I am passionate about designing responsive and user-centered websites. I continuously seek opportunities to gain real-world experience and further strengthen my technical and creative skills.
+        </p>
+
+        <div class="aboutHighlights" role="list">
+          <div class="highlightCard" role="listitem">
+            <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+            <div>
+              <h3>Front-end Focus</h3>
+              <p>Clean UI, responsive layout, and user-friendly pages.</p>
+            </div>
+          </div>
+
+          <div class="highlightCard" role="listitem">
+            <i class="fa-solid fa-pen-ruler" aria-hidden="true"></i>
+            <div>
+              <h3>UI/UX Mindset</h3>
+              <p>Wireframes → mockups → build with consistent style.</p>
+            </div>
+          </div>
+
+          <div class="highlightCard" role="listitem">
+            <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+            <div>
+              <h3>Always Improving</h3>
+              <p>Learning new tools and polishing projects each week.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="chipSection">
+          <div class="chipTitle">Tools I use</div>
+          <div class="chips" aria-label="Tools and technologies">
+            <span class="chip"><i class="fa-brands fa-html5"></i>HTML</span>
+            <span class="chip"><i class="fa-brands fa-css3-alt"></i>CSS</span>
+            <span class="chip"><i class="fa-brands fa-js"></i>JavaScript</span>
+            <span class="chip"><i class="fa-brands fa-github"></i>GitHub</span>
+            <span class="chip"><i class="fa-brands fa-figma"></i>Figma</span>
+            <span class="chip"><i class="fa-solid fa-palette"></i>Canva</span>
+          </div>
+        </div>
+
+        <div class="skillBoxWrap">
+          <div class="skillLabel">Technical Skills</div>
+
+          <div class="skillBox">
+            <div class="skillGrid">
+              <div class="skillMini">
+                <h4>Core</h4>
+                <p>HTML, CSS, JavaScript</p>
+              </div>
+
+              <div class="skillMini">
+                <h4>UI Design</h4>
+                <p>Figma, Canva (wireframes, mockups, prototypes)</p>
+              </div>
+
+              <div class="skillMini">
+                <h4>Responsive</h4>
+                <p>Mobile-first, Grid &amp; Flexbox</p>
+              </div>
+
+              <div class="skillMini">
+                <h4>Version Control</h4>
+                <p>GitHub basics</p>
+              </div>
+            </div>
+
+            <div class="skillFooter">
+              <a class="ctaBtn" href="projects.html">
+                View Projects <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="skillBoxWrap">
+          <div class="skillLabel">Soft Skills</div>
+
+          <div class="skillBox">
+            <div class="skillGrid">
+              <div class="skillMini">
+                <h4>Communication</h4>
+                <p>Explaining ideas clearly</p>
+              </div>
+
+              <div class="skillMini">
+                <h4>Time Management</h4>
+                <p>Meeting deadlines reliably</p>
+              </div>
+
+              <div class="skillMini">
+                <h4>Problem Solving</h4>
+                <p>Debugging &amp; troubleshooting</p>
+              </div>
+
+              <div class="skillMini">
+                <h4>Teamwork</h4>
+                <p>Collaborating efficiently</p>
+              </div>
+            </div>
+
+            <div class="skillFooter">
+              <a class="ctaBtn ctaBtn--ghost ctaBtn--contact" href="contact.html">
+                Contact Me <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footerBar">
+      <div class="footerItem">
+        <span class="footerIcon">
+          <i class="fa-brands fa-facebook-f"></i>
+        </span>
+        <a class="footerLink" href="https://www.facebook.com/share/1BLyB4nGM7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+          Facebook Profile
+        </a>
+      </div>
+
+      <div class="footerCenter">© 2026 Katherine Sanchez</div>
+
+      <div class="footerItem footerItem--right">
+        <span class="footerIcon">
+          <i class="fa-solid fa-phone"></i>
+        </span>
+        <span class="footerText">+63 965 723 9789</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="theme.js"></script>
+
+  <style>
+    .page{
+      min-height: auto !important;
+      padding-top: 18px !important;
+      padding-bottom: 0 !important;
+    }
+
+    .containerPad.aboutWrap2{
+      padding-top: 14px !important;
+      padding-bottom: 18px !important;
+      margin-bottom: 0 !important;
+    }
+
+    .footerBar{
+      margin-top: 0 !important;
+    }
+
+    .aboutWrap2{
+      display:grid;
+      grid-template-columns: minmax(320px, 0.95fr) minmax(0, 1.25fr);
+      gap: 42px;
+      align-items:start;
+      position: relative;
+    }
+
+    .aboutLeft2,
+    .aboutRight2{
+      position: relative;
+      z-index: 1;
+      min-width: 0;
+    }
+
+    .aboutBigTitle{
+      margin-top: 10px;
+      font-size: 64px;
+      line-height: 0.95;
+      letter-spacing: 1px;
+    }
+
+    .aboutPhotoCard{
+      margin-top: 16px;
+      width: 100%;
+      max-width: 520px;
+      background: var(--card);
+      border: 2px solid var(--text);
+      overflow: hidden;
+      box-shadow: 0 12px 26px rgba(0,0,0,.08);
+    }
+
+    .aboutPhoto{
+      width: 100%;
+      height: auto;
+      display: block;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+    }
+
+    .aboutParagraph{
+      font-size: 20px;
+      line-height: 1.7;
+      text-align: justify;
+      max-width: 750px;
+      margin: 0;
+    }
+
+    .aboutHighlights{
+      margin-top: 14px;
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .highlightCard{
+      background: var(--card);
+      border-radius: 16px;
+      padding: 14px;
+      display:flex;
+      gap: 10px;
+      border: 1px solid rgba(0,0,0,.08);
+      box-shadow: 0 10px 22px rgba(0,0,0,.06);
+      min-width: 0;
+    }
+
+    .highlightCard i{
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .highlightCard h3{
+      margin: 0 0 4px;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .highlightCard p{
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .chipSection{
+      margin-top: 14px;
+    }
+
+    .chipTitle{
+      font-size: 14px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .chips{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip{
+      background: rgba(0,0,0,.04);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      display:flex;
+      align-items:center;
+      gap: 6px;
+      border: 1px solid rgba(0,0,0,.06);
+    }
+
+    .skillBoxWrap{
+      margin-top: 18px;
+      position: relative;
+    }
+
+    .skillLabel{
+      position:absolute;
+      right: 14px;
+      top: -14px;
+      background: var(--accent2);
+      color: var(--white);
+      width: 200px;
+      text-align: center;
+      padding: 8px 0;
+      font-size: 14px;
+      font-weight: 800;
+      box-shadow: 0 10px 18px rgba(0,0,0,.10);
+      z-index: 2;
+    }
+
+    .skillBox{
+      background: var(--card);
+      padding: 20px 16px 14px;
+      border: 1px solid rgba(0,0,0,.08);
+      box-shadow: 0 10px 22px rgba(0,0,0,.06);
+      display:block;
+    }
+
+    .skillGrid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .skillMini{
+      background: rgba(0,0,0,.04);
+      border: 1px solid rgba(0,0,0,.06);
+      padding: 12px 12px 10px;
+      min-width: 0;
+    }
+
+    .skillMini h4{
+      margin: 0 0 4px;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .skillMini p{
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.35;
+      opacity: .85;
+    }
+
+    .skillFooter{
+      margin-top: 12px;
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .ctaBtn{
+      display:inline-flex;
+      align-items:center;
+      gap: 6px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 999px;
+      background: var(--accent2);
+      color: var(--white);
+      text-decoration:none;
+      transition: 0.2s ease;
+      border: 2px solid transparent;
+    }
+
+    .ctaBtn--ghost{
+      background: transparent;
+      color: var(--text);
+      border: 1px solid rgba(0,0,0,.18);
+    }
+
+    .ctaBtn--contact{
+      border: 2px solid var(--accent2);
+    }
+
+    .ctaBtn:hover{
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 1180px){
+      .aboutWrap2{
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 30px;
+      }
+
+      .aboutBigTitle{
+        font-size: 54px;
+      }
+
+      .aboutHighlights{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 980px){
+      .aboutWrap2{
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .aboutLeft2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .aboutBigTitle{
+        font-size: 48px;
+      }
+
+      .aboutPhotoCard{
+        max-width: 430px;
+      }
+
+      .aboutParagraph{
+        font-size: 17px;
+        max-width: 100%;
+      }
+
+      .aboutHighlights{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .skillLabel{
+        position: static;
+        margin-bottom: 10px;
+        width: fit-content;
+        padding-inline: 14px;
+      }
+
+      .skillBox{
+        padding-top: 14px;
+      }
+    }
+
+    @media (max-width: 680px){
+      .aboutBigTitle{
+        font-size: 38px;
+      }
+
+      .aboutParagraph{
+        font-size: 15px;
+        line-height: 1.65;
+        text-align: left;
+      }
+
+      .aboutHighlights{
+        grid-template-columns: 1fr;
+      }
+
+      .highlightCard{
+        padding: 12px;
+      }
+
+      .highlightCard h3{
+        font-size: 15px;
+      }
+
+      .highlightCard p{
+        font-size: 13px;
+      }
+
+      .skillGrid{
+        grid-template-columns: 1fr;
+      }
+
+      .ctaBtn{
+        width: 100%;
+        justify-content: center;
+        padding: 10px 14px;
+      }
+
+      .chip{
+        font-size: 13px;
+      }
+    }
+
+    @media (max-width: 480px){
+      .containerPad.aboutWrap2{
+        padding-top: 8px !important;
+        padding-bottom: 10px !important;
+      }
+
+      .aboutBigTitle{
+        font-size: 32px;
+        line-height: 1.05;
+      }
+
+      .aboutPhotoCard{
+        margin-top: 12px;
+      }
+
+      .aboutParagraph{
+        font-size: 14px;
+      }
+
+      .chipTitle{
+        font-size: 13px;
+      }
+
+      .chips{
+        gap: 6px;
+      }
+
+      .chip{
+        padding: 7px 10px;
+        font-size: 12px;
+      }
+
+      .skillMini h4{
+        font-size: 13px;
+      }
+
+      .skillMini p{
+        font-size: 12px;
+      }
+    }
+  </style>
+</body>
+</html>

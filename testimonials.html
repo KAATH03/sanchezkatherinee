@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonials | Katherine Sanchez</title>
+  <meta name="description" content="Testimonials and feedback for Katherine Sanchez's work and design projects." />
+  <link rel="canonical" href="testimonials.html" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body>
+  <a class="skipLink" href="#main">Skip to main content</a>
+
+  <header class="topbar">
+    <a href="index.html" class="mobileBrand">Katherine Sanchez</a>
+
+    <nav class="nav" aria-label="Primary navigation" id="siteNav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="projects.html">Projects</a>
+      <a class="nav__link nav__link--active" href="resume.html">Resume</a>
+      <a class="nav__link" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="topbarActions">
+      <button class="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode" aria-pressed="false" id="themeToggleBtn" type="button">
+        <i class="fa-solid fa-sun" aria-hidden="true"></i>
+      </button>
+
+      <button class="menuToggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="containerPad testiWrap">
+      <a class="rectBtn backBtn" href="resume.html">
+        Go Back <span class="arrow">→</span>
+      </a>
+
+      <h1 class="serifTitle testiTitle">TESTIMONIALS</h1>
+      <p class="testiSub">
+        Here are some of the comments and impressions shared about my work, creativity, and design approach.
+      </p>
+
+      <div class="testiGrid">
+        <article class="testiCard">
+          <div class="testiTop">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <div class="testiPhoto">
+              <img src="images/Dr.Joseph.jpeg" alt="Dr. Joseph Esquivel" />
+            </div>
+          </div>
+
+          <p class="tText">
+            She demonstrated strong technical skills, effective problem-solving abilities, and a high level of professionalism...
+          </p>
+          <p class="tName">— Dr. Joseph Esquivel</p>
+        </article>
+
+        <article class="testiCard">
+          <div class="testiTop">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <div class="testiPhoto">
+              <img src="images/Ms.Jasmine.jpeg" alt="Ms. Ma. Jasmine Carlos" />
+            </div>
+          </div>
+
+          <p class="tText">
+            Her designs are fresh and creative, and I enjoy seeing the ideas she brings to each project...
+          </p>
+          <p class="tName">— Ms. Ma. Jasmine Carlos</p>
+        </article>
+
+        <article class="testiCard">
+          <div class="testiTop">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <div class="testiPhoto">
+              <img src="images/Mr.Showki.jpeg" alt="Mr. Showki Basma" />
+            </div>
+          </div>
+
+          <p class="tText">
+            I like her minimal styling and her choice of colors. I believe she will continue to improve...
+          </p>
+          <p class="tName">— Mr. Showki Basma</p>
+        </article>
+
+        <article class="testiCard">
+          <div class="testiTop">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <div class="testiPhoto">
+              <img src="images/Ms.Roselle.jpeg" alt="Mrs. Roselle Cunanan" />
+            </div>
+          </div>
+
+          <p class="tText">
+            I like her minimal styling and the way she chooses colors. I always trust her to handle important invitations...
+          </p>
+          <p class="tName">— Mrs. Roselle Cunanan</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footerBar">
+      <div class="footerItem">
+        <span class="footerIcon">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </span>
+        <a class="footerLink" href="https://www.facebook.com/share/1BLyB4nGM7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+          Facebook Profile
+        </a>
+      </div>
+
+      <div class="footerCenter">© 2026 Katherine Sanchez</div>
+
+      <div class="footerItem footerItem--right">
+        <span class="footerIcon">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        </span>
+        <span class="footerText">+63 965 723 9789</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="theme.js"></script>
+
+  <style>
+    .testiTitle{
+      font-size: 64px;
+      line-height: 1;
+      margin-top: 8px;
+      letter-spacing: 2px;
+    }
+
+    .testiSub{
+      margin-top: 10px;
+      max-width: 680px;
+      line-height: 1.7;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .backBtn{
+      width: fit-content;
+      margin-bottom: 18px;
+    }
+
+    .arrow{
+      font-size: 22px;
+    }
+
+    .testiGrid{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+      margin-top: 26px;
+    }
+
+    .testiCard{
+      background: var(--card);
+      padding: 22px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 1px solid rgba(0,0,0,.06);
+      min-width: 0;
+    }
+
+    .testiTop{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .stars{
+      font-size: 18px;
+      letter-spacing: 2px;
+      color: var(--text);
+      opacity: .95;
+      white-space: nowrap;
+    }
+
+    .tText{
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .tName{
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--text);
+      opacity: .95;
+      margin-top: 2px;
+    }
+
+    .testiPhoto{
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid var(--circle);
+      flex: 0 0 auto;
+    }
+
+    .testiPhoto img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    @media (max-width: 900px){
+      .testiTitle{
+        font-size: 48px;
+      }
+
+      .testiGrid{
+        grid-template-columns: 1fr;
+      }
+
+      .testiPhoto{
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    @media (max-width: 480px){
+      .testiTitle{
+        font-size: 34px;
+      }
+
+      .testiSub{
+        font-size: 14px;
+      }
+
+      .testiCard{
+        padding: 16px;
+      }
+
+      .testiTop{
+        align-items: flex-start;
+      }
+
+      .stars{
+        font-size: 15px;
+        letter-spacing: 1px;
+      }
+
+      .tText{
+        font-size: 14px;
+      }
+
+      .tName{
+        font-size: 14px;
+      }
+
+      .testiPhoto{
+        width: 82px;
+        height: 82px;
+      }
+    }
+  </style>
+</body>
+</html>

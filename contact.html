@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Katherine Sanchez</title>
+  <meta name="description" content="Contact Katherine Sanchez for web development collaboration.">
+  <link rel="canonical" href="contact.html">
+  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body class="contactPageBody">
+  <a class="skipLink" href="#main">Skip to main content</a>
+
+  <header class="topbar">
+    <a href="index.html" class="mobileBrand">Katherine Sanchez</a>
+
+    <nav class="nav" aria-label="Primary navigation" id="siteNav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="projects.html">Projects</a>
+      <a class="nav__link" href="resume.html">Resume</a>
+      <a class="nav__link nav__link--active" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="topbarActions">
+      <button
+        class="themeToggle"
+        onclick="toggleTheme()"
+        aria-label="Toggle dark mode"
+        aria-pressed="false"
+        id="themeToggleBtn"
+        type="button"
+      >
+        <i class="fa-solid fa-sun" aria-hidden="true"></i>
+      </button>
+
+      <button
+        class="menuToggle"
+        id="menuToggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="siteNav"
+        type="button"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="page contactPageMain">
+    <section class="contactHero" aria-label="Contact information">
+      <div class="contactLeft">
+        <a class="pillBtn hireBtn2" href="#contactList">HIRE ME</a>
+
+        <h1 class="serifTitle contactName">KATHERINE SANCHEZ</h1>
+        <p class="contactRole"><em>Aspiring Web Developer | Front-End Developer</em></p>
+
+        <div class="hrLine contactLine" aria-hidden="true"></div>
+
+        <ul class="contactList2" id="contactList" aria-label="Contact links">
+          <li class="contactItem2">
+            <span class="iconCircle2" aria-hidden="true">
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+            <a href="mailto:sanchezkatherinee03@gmail.com" aria-label="Email Katherine Sanchez">
+              sanchezkatherinee03@gmail.com
+            </a>
+          </li>
+
+          <li class="contactItem2">
+            <span class="iconCircle2" aria-hidden="true">
+              <i class="fa-brands fa-facebook-f"></i>
+            </span>
+            <a
+              href="https://www.facebook.com/share/1BLyB4nGM7/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Facebook profile in a new tab"
+            >
+              Facebook Profile
+            </a>
+          </li>
+
+          <li class="contactItem2">
+            <span class="iconCircle2" aria-hidden="true">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+            <a
+              href="https://www.instagram.com/kaaaaterinn"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Instagram profile in a new tab"
+            >
+              @kaaaaterinn
+            </a>
+          </li>
+
+          <li class="contactItem2">
+            <span class="iconCircle2" aria-hidden="true">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <a href="tel:+639657239789" aria-label="Call Katherine Sanchez">
+              +63 965 723 9789
+            </a>
+          </li>
+
+          <li class="contactItem2">
+            <span class="iconCircle2" aria-hidden="true">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span>#004 Purok 1, Sto. Nino, San Luis, Pampanga</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contactRight" aria-hidden="true">
+        <div class="contactCircle">
+          <img
+            src="images/profile.jpeg"
+            alt="Profile Picture"
+            class="contactPhoto"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footerBar contactFooterFix">
+    <div class="footerItem">
+      <span class="footerIcon" aria-hidden="true">
+        <i class="fa-brands fa-facebook-f"></i>
+      </span>
+      <a
+        class="footerLink"
+        href="https://www.facebook.com/share/1BLyB4nGM7/?mibextid=wwXIfr"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open Facebook profile in a new tab"
+      >
+        Facebook Profile
+      </a>
+    </div>
+
+    <div class="footerCenter">© 2026 Katherine Sanchez</div>
+
+    <div class="footerItem footerItem--right">
+      <span class="footerIcon" aria-hidden="true">
+        <i class="fa-solid fa-phone"></i>
+      </span>
+      <span class="footerText">+63 965 723 9789</span>
+    </div>
+  </footer>
+
+  <script src="theme.js?v=2"></script>
+
+  <style>
+    html,
+    body{
+      min-height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contactPageBody{
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    .contactPageMain{
+      flex: 1 0 auto;
+      min-height: auto !important;
+      display: block !important;
+      padding-bottom: 0 !important;
+    }
+
+    .contactFooterFix{
+      flex-shrink: 0;
+      margin-top: 0 !important;
+    }
+
+    .contactHero{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 48px 60px 32px;
+      overflow: hidden;
+    }
+
+    .contactLeft{
+      width: 65%;
+      max-width: 900px;
+      padding-right: 40px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .hireBtn2{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      padding: 18px 40px;
+      letter-spacing: 1px;
+      margin: 0 0 30px;
+      box-shadow: 0 12px 26px rgba(0,0,0,.12), 0 3px 8px rgba(0,0,0,.08);
+      transform: translateZ(0);
+      transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+      align-self: flex-start;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    .hireBtn2:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 16px 34px rgba(0,0,0,.16), 0 4px 10px rgba(0,0,0,.10);
+    }
+
+    .contactName{
+      font-size: 72px;
+      letter-spacing: 1.5px;
+      white-space: nowrap;
+      line-height: 1;
+      margin-bottom: 18px;
+    }
+
+    .contactRole{
+      font-size: 22px;
+      opacity: .92;
+      margin-bottom: 18px;
+      max-width: 42ch;
+    }
+
+    .contactLine{
+      width: 86%;
+      margin: 16px 0 26px;
+    }
+
+    .contactList2{
+      list-style: none;
+      display: grid;
+      gap: 16px;
+      margin-top: 10px;
+      padding: 0;
+      max-width: 520px;
+      color: var(--muted);
+    }
+
+    .contactItem2{
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 18px;
+      line-height: 1.6;
+      word-break: break-word;
+      padding: 10px 12px;
+      border-radius: 14px;
+      transition: background .18s ease, transform .18s ease;
+    }
+
+    .contactItem2:hover{
+      background: rgba(0,0,0,.04);
+      transform: translateY(-1px);
+    }
+
+    body.dark .contactItem2:hover{
+      background: rgba(255,255,255,.06);
+    }
+
+    .contactItem2 a{
+      color: var(--text);
+      text-decoration: none;
+      word-break: break-word;
+      transition: opacity .18s ease, text-decoration-color .18s ease;
+    }
+
+    .contactItem2:hover a{
+      opacity: .95;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+
+    .iconCircle2{
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      display: grid;
+      place-items: center;
+      background: var(--black);
+      color: var(--white);
+      font-size: 16px;
+      border: 1px solid rgba(0,0,0,.08);
+      box-shadow: 0 6px 14px rgba(0,0,0,.12);
+      transition: transform .18s ease, filter .18s ease;
+      flex: 0 0 34px;
+    }
+
+    .contactItem2:hover .iconCircle2{
+      transform: scale(1.05);
+      filter: brightness(1.05);
+    }
+
+    body.dark .iconCircle2{
+      border: 1px solid rgba(255,255,255,.10);
+    }
+
+    .contactRight{
+      width: 35%;
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      min-height: 520px;
+      min-width: 0;
+    }
+
+    .contactCircle{
+      width: 520px;
+      height: 520px;
+      border-radius: 50%;
+      background: var(--circle);
+      position: absolute;
+      right: -140px;
+      top: 50%;
+      transform: translateY(-50%);
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.50);
+      box-shadow: 0 18px 44px rgba(0,0,0,.14), 0 4px 12px rgba(0,0,0,.10);
+    }
+
+    body.dark .contactCircle{
+      border: 1px solid rgba(255,255,255,.18);
+      box-shadow: 0 22px 56px rgba(0,0,0,.55);
+    }
+
+    .contactPhoto{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      object-position: center 60%;
+      transition: transform .45s ease;
+    }
+
+    .contactCircle:hover .contactPhoto{
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 1100px){
+      .contactHero{
+        padding: 40px 36px 26px;
+      }
+
+      .contactName{
+        font-size: 56px;
+        white-space: normal;
+      }
+
+      .contactRole{
+        font-size: 20px;
+      }
+
+      .contactCircle{
+        width: 420px;
+        height: 420px;
+        right: -110px;
+      }
+
+      .contactRight{
+        min-height: 420px;
+      }
+    }
+
+    @media (max-width: 860px){
+      .contactHero{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 22px;
+        padding: 32px 20px 20px;
+      }
+
+      .contactLeft{
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        align-items: center;
+      }
+
+      .hireBtn2{
+        display: inline-flex;
+        align-self: center;
+        font-size: 24px;
+        padding: 14px 28px;
+        margin: 0 auto 22px;
+      }
+
+      .contactName{
+        font-size: 40px;
+        line-height: 1.08;
+        margin-bottom: 12px;
+      }
+
+      .contactRole{
+        font-size: 17px;
+        margin-inline: auto;
+      }
+
+      .contactLine{
+        width: 100%;
+        margin: 14px 0 22px;
+      }
+
+      .contactList2{
+        max-width: 100%;
+        gap: 12px;
+      }
+
+      .contactItem2{
+        font-size: 15px;
+        padding: 10px 8px;
+        align-items: flex-start;
+        text-align: left;
+      }
+
+      .contactRight{
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .contactCircle{
+        position: relative;
+        width: 260px;
+        height: 260px;
+        right: auto;
+        top: auto;
+        transform: none;
+        margin: 0 auto;
+      }
+    }
+
+    @media (max-width: 520px){
+      .contactHero{
+        padding: 24px 16px 16px;
+        gap: 18px;
+      }
+
+      .contactName{
+        font-size: 32px;
+      }
+
+      .contactRole{
+        font-size: 15px;
+      }
+
+      .hireBtn2{
+        display: inline-flex;
+        width: auto;
+        min-width: 170px;
+        max-width: none;
+        justify-content: center;
+        font-size: 18px;
+        padding: 12px 22px;
+        margin: 0 auto 20px;
+      }
+
+      .contactItem2{
+        font-size: 14px;
+        gap: 12px;
+      }
+
+      .iconCircle2{
+        width: 30px;
+        height: 30px;
+        flex-basis: 30px;
+        font-size: 14px;
+      }
+
+      .contactCircle{
+        width: 220px;
+        height: 220px;
+      }
+    }
+  </style>
+</body>
+</html>

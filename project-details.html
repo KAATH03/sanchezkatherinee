@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Details | Katherine Sanchez</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body>
+  <a class="skipLink" href="#main">Skip to main content</a>
+
+  <header class="topbar">
+    <a href="index.html" class="mobileBrand">Katherine Sanchez</a>
+
+    <nav class="nav" aria-label="Primary navigation" id="siteNav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link nav__link--active" href="projects.html">Projects</a>
+      <a class="nav__link" href="resume.html">Resume</a>
+      <a class="nav__link" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="topbarActions">
+      <button class="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode" aria-pressed="false" id="themeToggleBtn" type="button">
+        <i class="fa-solid fa-sun" aria-hidden="true"></i>
+      </button>
+
+      <button class="menuToggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="containerPad projectDetails fadeSection">
+      <a href="projects.html" class="rectBtn backBtn">← Back to Projects</a>
+
+      <h1 class="serifTitle projectMainTitle">Project Details</h1>
+      <p class="projectIntro">
+        A collection of my recent works in web design, development, and digital marketing.
+        Each project includes tools used, key features, and a quick preview gallery.
+      </p>
+
+      <div class="projectsGrid">
+        <article class="projectCard">
+          <img src="images/FMEmail.jpeg" alt="Email Marketing Campaign Preview" loading="lazy">
+          <div class="projectContent">
+            <div class="cardTop">
+              <h2>Email Marketing Campaign</h2>
+
+              <div class="chipRow" aria-label="Project tags">
+                <span class="chip">Design</span>
+                <span class="chip">Marketing</span>
+              </div>
+
+              <p>
+                A professionally designed email marketing campaign created in Canva.
+                Focused on clear messaging, strong hierarchy, and effective call-to-action placement.
+              </p>
+
+              <div class="toolsRow">
+                <span class="toolsLabel">Tools used:</span>
+                <span class="toolsValue">Canva</span>
+              </div>
+
+              <ul class="featureList">
+                <li>Strong visual hierarchy</li>
+                <li>CTA-focused layout</li>
+                <li>Readable spacing and structure</li>
+              </ul>
+            </div>
+
+            <div class="cardActions">
+              <button class="btnOutline" type="button" data-gallery="email">
+                <i class="fa-regular fa-image" aria-hidden="true"></i>
+                View Photo
+              </button>
+
+              <a href="assets/Timeless_Elegance.pdf" class="btnSolid" download>
+                <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+                Download PDF
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard">
+          <img src="images/ZHome.jpeg" alt="Zencor Website Preview" loading="lazy">
+          <div class="projectContent">
+            <div class="cardTop">
+              <h2>Zencor</h2>
+
+              <div class="chipRow" aria-label="Project tags">
+                <span class="chip">Website</span>
+                <span class="chip">Business</span>
+              </div>
+
+              <p>
+                An agricultural products website built with HTML, CSS, and JavaScript.
+                Designed to present crop-care solutions clearly with structured sections.
+              </p>
+
+              <div class="toolsRow">
+                <span class="toolsLabel">Tools used:</span>
+                <span class="toolsValue">HTML • CSS • JavaScript</span>
+              </div>
+
+              <ul class="featureList">
+                <li>Organized product sections</li>
+                <li>Informational pages (About/Blog/Contact)</li>
+                <li>Clean UI and easy navigation</li>
+              </ul>
+            </div>
+
+            <div class="cardActions">
+              <button class="btnOutline" type="button" data-gallery="zencor">
+                <i class="fa-regular fa-images" aria-hidden="true"></i>
+                View Photos
+              </button>
+
+              <a href="https://zencoragri.com/" class="btnSolid" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                View Live
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard">
+          <img src="images/cafegHome.jpeg" alt="Cafe Galilea Website Preview" loading="lazy">
+          <div class="projectContent">
+            <div class="cardTop">
+              <h2>Cafe Galilea</h2>
+
+              <div class="chipRow" aria-label="Project tags">
+                <span class="chip">Website</span>
+                <span class="chip">Restaurant</span>
+              </div>
+
+              <p>
+                A coffee shop and restaurant website showcasing menu items and branch locations
+                with a customer-friendly layout.
+              </p>
+
+              <div class="toolsRow">
+                <span class="toolsLabel">Tools used:</span>
+                <span class="toolsValue">HTML • CSS • JavaScript</span>
+              </div>
+
+              <ul class="featureList">
+                <li>Menu and product layout</li>
+                <li>Branch/location section</li>
+                <li>Responsive structure</li>
+              </ul>
+            </div>
+
+            <div class="cardActions">
+              <button class="btnOutline" type="button" data-gallery="cafe">
+                <i class="fa-regular fa-images" aria-hidden="true"></i>
+                View Photos
+              </button>
+
+              <a href="https://kgsanchez3.github.io/Cafe-Galilea/" class="btnSolid" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                View Live
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard">
+          <img src="images/fdHome.jpeg" alt="Fragrance Diaries Preview" loading="lazy">
+          <div class="projectContent">
+            <div class="cardTop">
+              <h2>Fragrance Diaries</h2>
+
+              <div class="chipRow" aria-label="Project tags">
+                <span class="chip">Blog</span>
+                <span class="chip">WordPress</span>
+              </div>
+
+              <p>
+                A personal perfume review blog built in WordPress with organized reviews,
+                scent notes, performance insights, and recommendations.
+              </p>
+
+              <div class="toolsRow">
+                <span class="toolsLabel">Tools used:</span>
+                <span class="toolsValue">WordPress</span>
+              </div>
+
+              <ul class="featureList">
+                <li>Structured review layout</li>
+                <li>Categories and navigation</li>
+                <li>Clean reading experience</li>
+              </ul>
+            </div>
+
+            <div class="cardActions">
+              <button class="btnOutline" type="button" data-gallery="fragrance">
+                <i class="fa-regular fa-images" aria-hidden="true"></i>
+                View Photos
+              </button>
+
+              <a href="https://kgsanchez1.wordpress.com/ablout-me/" class="btnSolid" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                View Site
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="projectCard">
+          <img src="images/sweet-skye.jpeg" alt="Sweet Skyes Homepage Preview" loading="lazy">
+          <div class="projectContent">
+            <div class="cardTop">
+              <h2>Sweet Skyes</h2>
+
+              <div class="chipRow" aria-label="Project tags">
+                <span class="chip">Landing Page</span>
+                <span class="chip">Business</span>
+              </div>
+
+              <p>
+                A homepage design for a home-based cookie and pastry business,
+                introducing the brand and showcasing featured baked products.
+              </p>
+
+              <div class="toolsRow">
+                <span class="toolsLabel">Tools used:</span>
+                <span class="toolsValue">HTML • CSS • JavaScript</span>
+              </div>
+
+              <ul class="featureList">
+                <li>Brand-focused hero section</li>
+                <li>Featured products display</li>
+                <li>Simple and clean layout</li>
+              </ul>
+            </div>
+
+            <div class="cardActions">
+              <button class="btnOutline" type="button" data-gallery="sweet">
+                <i class="fa-regular fa-image" aria-hidden="true"></i>
+                View Photo
+              </button>
+
+              <a href="https://kgsanchez3.github.io/kath/" class="btnSolid" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                View Live
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footerBar">
+      <div class="footerItem">
+        <span class="footerIcon"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></span>
+        <a class="footerLink" href="https://www.facebook.com/share/1BLyB4nGM7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+          Facebook Profile
+        </a>
+      </div>
+
+      <div class="footerCenter">© 2026 Katherine Sanchez</div>
+
+      <div class="footerItem footerItem--right">
+        <span class="footerIcon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+        <span class="footerText">+63 965 723 9789</span>
+      </div>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightboxPanel" role="dialog" aria-modal="true" aria-label="Project gallery">
+      <div class="lightboxTop">
+        <div class="lbHead">
+          <h3 class="lightboxTitle" id="lightboxTitle">Gallery</h3>
+          <div class="lbMeta">
+            <span class="lbCount" id="lbCount">1 / 1</span>
+          </div>
+        </div>
+        <button class="lightboxClose" id="lightboxClose" aria-label="Close gallery">✕</button>
+      </div>
+
+      <div class="lightboxBody">
+        <img class="lightboxImg" id="lightboxImg" src="" alt="Project image preview">
+      </div>
+
+      <div class="lightboxFooter">
+        <div class="lbCaption" id="lbCaption">Caption</div>
+
+        <div class="lightboxControls">
+          <button class="lbBtn" id="prevBtn" type="button">← Prev</button>
+          <button class="lbBtn" id="nextBtn" type="button">Next →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="theme.js"></script>
+  <script>
+    const galleries = {
+      email: {
+        title: "Email Marketing Campaign",
+        images: [{ src: "images/FMEmail.jpeg", caption: "Email marketing layout preview" }]
+      },
+      sweet: {
+        title: "Sweet Skyes",
+        images: [{ src: "images/sweet-skye.jpeg", caption: "Homepage preview" }]
+      },
+      cafe: {
+        title: "Cafe Galilea",
+        images: [
+          { src: "images/cafegHome.jpeg", caption: "Home page" },
+          { src: "images/cafegProducts.jpeg", caption: "Products / menu section" },
+          { src: "images/cafegFeature.jpeg", caption: "Feature highlights" },
+          { src: "images/cafegContact.jpeg", caption: "Contact page" }
+        ]
+      },
+      fragrance: {
+        title: "Fragrance Diaries",
+        images: [
+          { src: "images/fdHome.jpeg", caption: "Home page" },
+          { src: "images/fdBlog.jpeg", caption: "Blog / reviews list" },
+          { src: "images/fdAbout.jpeg", caption: "About page" },
+          { src: "images/fdContact.jpeg", caption: "Contact page" }
+        ]
+      },
+      zencor: {
+        title: "Zencor",
+        images: [
+          { src: "images/ZHome.jpeg", caption: "Home page" },
+          { src: "images/ZProducts.jpeg", caption: "Products page" },
+          { src: "images/ZBlog.jpeg", caption: "Blog page" },
+          { src: "images/ZAbout.jpeg", caption: "About page" },
+          { src: "images/ZContact.jpeg", caption: "Contact page" }
+        ]
+      }
+    };
+
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightboxImg");
+    const lightboxTitle = document.getElementById("lightboxTitle");
+    const lbCount = document.getElementById("lbCount");
+    const lbCaption = document.getElementById("lbCaption");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const closeBtn = document.getElementById("lightboxClose");
+
+    let currentKey = null;
+    let currentIndex = 0;
+    let lastFocusedEl = null;
+
+    function lockScroll(lock){
+      document.body.style.overflow = lock ? "hidden" : "";
+    }
+
+    function renderLightbox() {
+      const items = galleries[currentKey].images;
+      const item = items[currentIndex];
+
+      lightboxImg.src = item.src;
+      lightboxImg.alt = `${galleries[currentKey].title} image ${currentIndex + 1}`;
+      lbCaption.textContent = item.caption || "";
+      lbCount.textContent = `${currentIndex + 1} / ${items.length}`;
+
+      const one = items.length <= 1;
+      prevBtn.style.display = one ? "none" : "inline-flex";
+      nextBtn.style.display = one ? "none" : "inline-flex";
+    }
+
+    function openGallery(key) {
+      lastFocusedEl = document.activeElement;
+      currentKey = key;
+      currentIndex = 0;
+      lightboxTitle.textContent = galleries[key].title;
+      lightbox.classList.add("isOpen");
+      lightbox.setAttribute("aria-hidden", "false");
+      lockScroll(true);
+      renderLightbox();
+      closeBtn.focus();
+    }
+
+    function closeGallery() {
+      lightbox.classList.remove("isOpen");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImg.src = "";
+      lockScroll(false);
+      if (lastFocusedEl) lastFocusedEl.focus();
+    }
+
+    prevBtn.addEventListener("click", () => {
+      const items = galleries[currentKey].images;
+      currentIndex = (currentIndex - 1 + items.length) % items.length;
+      renderLightbox();
+    });
+
+    nextBtn.addEventListener("click", () => {
+      const items = galleries[currentKey].images;
+      currentIndex = (currentIndex + 1) % items.length;
+      renderLightbox();
+    });
+
+    closeBtn.addEventListener("click", closeGallery);
+
+    lightbox.addEventListener("click", (e) => {
+      if (e.target === lightbox) closeGallery();
+    });
+
+    document.querySelectorAll("[data-gallery]").forEach(el => {
+      el.addEventListener("click", () => {
+        openGallery(el.getAttribute("data-gallery"));
+      });
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (!lightbox.classList.contains("isOpen")) return;
+      if (e.key === "Escape") closeGallery();
+      if (e.key === "ArrowLeft") prevBtn.click();
+      if (e.key === "ArrowRight") nextBtn.click();
+    });
+  </script>
+
+  <style>
+    .projectMainTitle{
+      font-size: 46px;
+      margin: 14px 0 10px;
+      letter-spacing: .2px;
+    }
+
+    .projectIntro{
+      margin: 0 0 26px;
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 70ch;
+    }
+
+    .backBtn{
+      margin-bottom: 18px;
+    }
+
+    .projectsGrid{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 26px;
+    }
+
+    .projectCard{
+      background: var(--card);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 12px 28px rgba(0,0,0,.14);
+      border: 1px solid rgba(255,255,255,.08);
+      display: flex;
+      flex-direction: column;
+      transition: transform .15s ease, box-shadow .15s ease;
+      min-width: 0;
+    }
+
+    .projectCard:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 18px 40px rgba(0,0,0,.18);
+    }
+
+    .projectCard img{
+      width: 100%;
+      height: 215px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      transition: transform .18s ease;
+    }
+
+    .projectCard:hover img{
+      transform: scale(1.02);
+    }
+
+    .projectContent{
+      padding: 18px 18px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1;
+      min-height: 340px;
+    }
+
+    .cardTop{
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+      flex: 1;
+    }
+
+    .projectContent h2{
+      font-size: 22px;
+      margin: 0;
+      line-height: 1.15;
+    }
+
+    .projectContent p{
+      margin: 0;
+      line-height: 1.65;
+      color: var(--text);
+      opacity: .95;
+    }
+
+    .chipRow{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 12px;
+      color: var(--text);
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.10);
+    }
+
+    .toolsRow{
+      display:flex;
+      align-items:baseline;
+      gap: 8px;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+
+    .toolsLabel{
+      font-weight: 900;
+      letter-spacing: .2px;
+    }
+
+    .toolsValue{
+      font-weight: 700;
+      opacity: .95;
+    }
+
+    .featureList{
+      margin: 0;
+      padding-left: 18px;
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .cardActions{
+      display:flex;
+      gap: 10px;
+      margin-top: 4px;
+      flex-wrap: wrap;
+    }
+
+    .btnSolid,
+    .btnOutline{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      min-height: 44px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-weight: 900;
+      letter-spacing: .2px;
+      text-decoration: none;
+      cursor: pointer;
+      user-select: none;
+      transition: transform .12s ease, opacity .12s ease, background .12s ease, border-color .12s ease;
+      white-space: nowrap;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .btnSolid{
+      background: var(--accent);
+      color: var(--white);
+      border: 0;
+    }
+
+    .btnSolid:hover{
+      opacity: .92;
+      transform: translateY(-1px);
+    }
+
+    .btnOutline{
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,.14);
+    }
+
+    .btnOutline:hover{
+      border-color: rgba(255,255,255,.24);
+      transform: translateY(-1px);
+    }
+
+    .lightbox{
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.78);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      z-index: 9999;
+    }
+
+    .lightbox.isOpen{
+      display: flex;
+    }
+
+    .lightboxPanel{
+      width: min(980px, 96vw);
+      max-height: 92vh;
+      background: var(--card);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 18px 60px rgba(0,0,0,.35);
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      border: 1px solid rgba(255,255,255,.10);
+    }
+
+    .lightboxTop{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+
+    .lbHead{
+      display:flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .lightboxTitle{
+      margin: 0;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .lbMeta{
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    .lightboxClose{
+      border: 0;
+      background: rgba(255,255,255,.07);
+      font-size: 22px;
+      cursor: pointer;
+      color: var(--text);
+      padding: 6px 12px;
+      border-radius: 12px;
+      flex-shrink: 0;
+    }
+
+    .lightboxBody{
+      background: rgba(0,0,0,.06);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 14px;
+      min-height: 340px;
+    }
+
+    .lightboxImg{
+      width: 100%;
+      height: min(520px, 70vh);
+      object-fit: contain;
+      border-radius: 12px;
+      background: rgba(0,0,0,.05);
+    }
+
+    .lightboxFooter{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      padding: 12px 16px;
+      border-top: 1px solid rgba(255,255,255,.08);
+      flex-wrap: wrap;
+    }
+
+    .lbCaption{
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 13px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 55%;
+    }
+
+    .lightboxControls{
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .lbBtn{
+      border: 0;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--white);
+      font-weight: 900;
+      cursor: pointer;
+      transition: transform .12s ease, opacity .12s ease;
+      min-width: 92px;
+    }
+
+    .lbBtn:hover{
+      opacity: .92;
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 900px){
+      .projectsGrid{
+        grid-template-columns: 1fr;
+      }
+
+      .projectMainTitle{
+        font-size: 36px;
+      }
+    }
+
+    @media (max-width: 600px){
+      .projectMainTitle{
+        font-size: 32px;
+      }
+
+      .projectIntro{
+        font-size: 14px;
+      }
+
+      .projectCard img{
+        height: 190px;
+      }
+
+      .projectContent{
+        padding: 14px;
+        min-height: auto;
+      }
+
+      .projectContent h2{
+        font-size: 18px;
+      }
+
+      .projectContent p{
+        font-size: 14px;
+      }
+
+      .featureList{
+        font-size: 13px;
+      }
+
+      .cardActions{
+        flex-direction: column;
+      }
+
+      .btnSolid,
+      .btnOutline{
+        width: 100%;
+      }
+
+      .lightbox{
+        padding: 10px;
+      }
+
+      .lightboxTop,
+      .lightboxFooter{
+        padding: 12px;
+      }
+
+      .lightboxBody{
+        min-height: 220px;
+        padding: 10px;
+      }
+
+      .lightboxImg{
+        height: min(380px, 52vh);
+      }
+
+      .lbCaption{
+        display:none;
+      }
+
+      .lightboxControls{
+        width: 100%;
+      }
+
+      .lbBtn{
+        flex: 1;
+      }
+    }
+  </style>
+</body>
+</html>
